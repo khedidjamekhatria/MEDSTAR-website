@@ -278,11 +278,12 @@ img {
         }
 
         #about .row .col hr {
-            width: 60px;
+            width: 20%; 
+            max-width: 60px; 
             height: 3px;
             background: var(--light-blue);
             border: none;
-            margin: 10px 0 20px;
+            margin: 10px auto 20px;
         }
 
         #about .row .col p {
@@ -824,14 +825,15 @@ img {
             margin-bottom: 15px;
         }
 
-        #footer .footer-top .row hr {
-            width: 50px;
-            height: 2px;
-            border: none;
-            background: white;
-            margin: 10px 0 2rem;
-        }
 
+#footer .footer-top .row hr {
+    width: 15%; 
+    max-width: 50px; 
+    height: 2px;
+    border: none;
+    background: white;
+    margin: 10px auto 2rem; 
+}
         #footer .footer-top .row .col-1 .socials {
             margin-top: 30px;
         }
@@ -1494,6 +1496,8 @@ textarea:valid {
 .justify-content-center {
     justify-content: center;
 }
+
+
 
 .justify-content-between {
     justify-content: space-between;
